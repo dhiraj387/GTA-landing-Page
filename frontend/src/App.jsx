@@ -157,7 +157,7 @@ const App = () => {
 
               {/* Character image */}
               <img
-                className="character absolute -bottom-[65%] left-[25%]
+                className="character absolute -bottom-[59%] left-[25%]
                 scale-[2] rotate-[10deg]"
                 src="/girlbg.png"
                 alt="Character"
