@@ -187,7 +187,7 @@ const App = () => {
               <div className="rg w-[40%]">
                 <h1 className="text-8xl">Still Running,</h1>
                 <h1 className="text-8xl">Not Hunting</h1>
-                <p className="text-xl font-[Helvetica_Now_Display]">
+                <p className="text-xl font-[Helvetica_Now_Display] mt-10">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Distinctio possimus, asperiores nam, omnis inventore nesciunt
                   a architecto eveniet saepe, ducimus necessitatibus at
@@ -200,7 +200,7 @@ const App = () => {
                   eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
                   autem sapiente.
                 </p>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
+                <p className="mt-3 text-xl font-[Helvetica_Now_Display]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                   eius illum fugit eligendi nesciunt quia similique velit
                   excepturi soluta tenetur illo repellat consectetur laborum
