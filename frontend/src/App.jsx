@@ -6,7 +6,7 @@ import "remixicon/fonts/remixicon.css";
 const App = () => {
   const [showContent, setShowContent] = useState(false);
 
-  // 🎬 Initial "VI" animation intro
+
   useGSAP(() => {
     const tl = gsap.timeline();
 
@@ -31,10 +31,10 @@ const App = () => {
         }
       },
     });
-  }, []); // ✅ Run only once
+  }, []); 
 
 
-  // 🎮 Parallax mouse movement (only when main content shows)
+  //  Parallax mouse movement (only when main content shows)
   useEffect(() => {
     if (!showContent) return;
     gsap.to(".main",{
@@ -79,7 +79,7 @@ const App = () => {
 
     main.addEventListener("mousemove", handleMouseMove);
 
-    // ✅ Cleanup listener on unmount
+    
     return () => {
       main.removeEventListener("mousemove", handleMouseMove);
     };
